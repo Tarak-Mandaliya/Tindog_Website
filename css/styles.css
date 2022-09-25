@@ -1,0 +1,182 @@
+#title{
+  background-color: #ff4c68;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  color: white;
+}
+
+.carousel h2{
+  font-size: 3rem;
+  font-family: 'Montserrat';
+  line-height: 1.5;
+  color: white;
+}
+
+
+h3{
+  font-family: 'Montserrat',sans-serif;
+}
+
+body{
+   font-family: 'Ubuntu', sans-serif;
+}
+
+.container-fluid{
+  padding: 7% 15% 10%;
+  padding-top: 1.067%;
+}
+
+.imagetest{
+  position: relative;
+}
+
+.title-image{
+  width:60%;
+  transform:rotate(25deg);
+  position: absolute;
+  right:25%;
+}
+
+.download{
+  margin:30px auto;
+}
+
+.navbar{
+  background-color: #ff4c68;
+}
+
+.nav-item{
+  margin:auto 20px;
+
+}
+
+.nav-link{
+font-size: 20px;
+}
+
+#first_row{
+  margin-top:2.5rem;
+}
+
+/* features Section */
+
+#features{
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  padding: 8% 15%;
+}
+
+
+.feature_col{
+  padding:0 4rem;
+}
+
+.feature_col h3{
+  margin-top: 1rem;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.feature_col i{
+  color:  #ef8172;
+}
+
+.feature_col i:hover{
+  color: red;
+
+}
+
+.feature_col p{
+  color: grey;
+}
+
+/* Testimonial Section */
+
+#testimonials{
+  text-align:center;
+
+}
+
+.testimonial-image{
+  width:15%;
+  border-radius: 100%;
+  margin-top:20px;
+}
+
+/* press Section */
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.press-logo{
+  width:15%;
+  margin:0 15px;
+  padding: 30px 0;
+}
+
+
+/* pricing */
+h2{
+  font-family: 'Montserrat';
+  font-size: 2.5rem;
+}
+
+p{
+  font-size: 1.5rem;
+  color: gray;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+#pricing{
+  text-align:center;
+}
+
+.pricing-col{
+  padding: 3% 2%;
+}
+
+/* final section */
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding:7% 20%;
+}
+
+#cta .download{
+  margin-bottom:0px;
+}
+
+#footer{
+  padding: 3% 15%;
+  text-align: center;
+}
+
+#footer i{
+  margin:10px 5px;
+}
+
+
+
+/* media query */
+
+@media (max-width:992px) {
+
+  .container-fluid{
+    text-align: center;
+  }
+
+.title-image{
+  position: static;
+  transform: rotate(0);
+}
+
+
+ {
